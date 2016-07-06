@@ -16,3 +16,4 @@ printf("\n Given character is consonants");
 }
 getch();
 }
+
