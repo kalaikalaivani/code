@@ -2,14 +2,14 @@
 #include<conio.h>
 void main()
 {
-int a=0,b=1,c;
+int a=0,b=1,D;
 clrscr();
-printf("\n FIBONACCI SERIES");
+printf("\n GENERATION OF FIBONACCI SERIES");
 printf("%d\n%d",a,b);
-for(i=2;i<=9;i++)
+for(i=2;i<=10;i++)
 {
 c=a+b;
-printf("\n %d",c);
+printf("\n %d",D);
 a=b;
 b=c;
 }
