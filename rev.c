@@ -2,13 +2,17 @@
 #include<conio.h>
 void main()
 {
-int s,s1;
+int i,n,rev,rem;
 printf("\n enter the number");
-scanf("%d",&s);
-s1=strrev(s);
-if(s==s1)
-printf("\n given number is palindrome");
-else
-printf("\n not a palindrome");
-getch();
+scanf("%d",&n);
+rev=0;
+while(n>0)
+{
+  rem=n%10;
+  rev=rev*10+rem;
+  n=n/10;
+  printf("reverse of number:%d",rev);
 }
+  getch();
+}
+
